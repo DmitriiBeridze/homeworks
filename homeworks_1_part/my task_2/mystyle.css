@@ -1,0 +1,92 @@
+.container {
+  max-width: 1000px;
+
+  min-height: 100vh;
+  margin: auto;
+  position: relative;
+  margin-top: 50px;
+}
+.row {
+  width: 100%;
+  position: relative;
+}
+
+.row__card {
+  width: 242.5px;
+  height: 376px;
+  position: absolute;
+  background-color: rgb(246, 248, 248);
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+.row_img {
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.row__card_one {
+  right: calc(100% - 242.5px);
+}
+.row__card_two {
+  right: calc(100% - 495px);
+}
+
+.row__card_three {
+  left: calc(100% - 495px);
+}
+
+.row__card_four {
+  left: calc(100% - 242.5px);
+}
+
+.row2 {
+  width: 100%;
+
+  position: relative;
+  height: auto;
+  top: 400px;
+}
+/* _______________ */
+.row__info {
+  position: relative;
+  left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* .row__info_name {
+} */
+.row__info_year {
+  position: relative;
+  top: -8px;
+  font-weight: 600;
+  opacity: 0.3;
+}
+.row__info_lorem {
+  position: relative;
+  top: -1px;
+  font-weight: 700;
+  opacity: 0.6;
+}
+.row__header {
+  margin: 10px 0;
+  font-size: 1.4rem;
+}
+.row__info_footer {
+  position: relative;
+  border-top: 1px solid rgb(209, 208, 208);
+  left: -15px;
+  top: 10px;
+}
+.row__info_icon {
+  position: relative;
+  top: 7px;
+  opacity: 0.3;
+  left: 17px;
+}
+.row__info_text {
+  position: relative;
+  left: 42px;
+  font-weight: 600;
+  opacity: 0.3;
+  top: -10px;
+}
