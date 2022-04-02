@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,OAAO,CAAC;EACN,MAAM,EAAE,GAAG,CAAC,KAAK,CDAR,OAAO;ECChB,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,WAAW;EAClB,OAAO,EAAE,QAAQ;EACjB,cAAc,EAAE,SAAS;EACzB,KAAK,EDNI,OAAO;CCmBjB;;AApBD,AASE,OATK,AASJ,MAAM,CAAC;EACN,KAAK,EDPA,OAAO;ECQZ,MAAM,EAAE,GAAG,CAAC,KAAK,CDRZ,OAAO;ECUZ,eAAe,EAAE,SAAS;CAC3B;;AAEA,AAAD,eAAS,CAAC;EACR,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,YAAY;CACtB",
+    "sources": [
+        "index.scss",
+        "../../variables/_variables.scss",
+        "../../style/_lorem-button.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}

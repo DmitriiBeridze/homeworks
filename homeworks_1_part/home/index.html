@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <style>
+      h1 {
+        text-align: center;
+        color: white;
+        background-color: #a62a2a;
+      }
+      h3 {
+        color: white;
+        background-color: #000000;
+        text-align: center;
+      }
+      h3::before {
+        content: "\00A9";
+        margin: 5px;
+      }
+      .set {
+        text-align: center;
+      }
+
+      .set__img {
+        border: #020202 3px dashed;
+      }
+      .font1 {
+        font-style: italic;
+      }
+      .font2 {
+        font-weight: bold;
+      }
+      a {
+        color: #0006fc;
+        text-decoration: none;
+      }
+      .link {
+        font-style: italic;
+        font-weight: bold;
+      }
+
+      a:visited {
+        color: cadetblue;
+      }
+      a:hover {
+        color: #8a8be9;
+        text-decoration: underline;
+      }
+      .rotate {
+        position: absolute;
+        right: 50%;
+        transform: translate(50%, 0);
+        width: 800px;
+      }
+      body {
+        position: relative;
+      }
+    </style>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="button_wrapper">
+      <a class="button" href="../../index.html">HOME PAGE</a>
+    </div>
+    <div class="rotate">
+      <header>
+        <h1>My simple website</h1>
+      </header>
+      <main>
+        <div>
+          <img src="img/sunset.jpg" alt="sunset" width="100%" />
+        </div>
+
+        <section>
+          <p>
+            Lorem ipsum, dolor sitamet consectetur<span class="font1">
+              adipisicing elit.</span
+            >
+
+            Rerum exercitationem recusandae molestiae expedita vero, cupiditate
+            <span class="font2">
+              officiis libero ea cumque fuga explicabo nam accusamus
+              repudiandae,</span
+            >
+            placeat quo ipsa obcaecati corporis amet. Lorem ipsum,
+            <a
+              class="link"
+              href="https://ru.wikipedia.org/wiki/%D0%92%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0"
+              >dolor</a
+            >? sit amet consectetur adipisicing elit. Rerum exercitationem
+            recusandae molestiae expedita vero, cupiditate officiis libero ea
+            cumque fuga explicabo
+          </p>
+        </section>
+        <section>
+          <section>
+            <p class="set">
+              <img class="set__img" src="img/car01.jpg" alt="" />
+
+              <img class="set__img" src="img/car02.jpg" alt="" />
+
+              <img class="set__img" src="img/car03.jpg" alt="" />
+
+              <img class="set__img" src="img/car04.jpg" alt="" />
+
+              <img class="set__img" src="img/car05.jpg" alt="" />
+            </p>
+          </section>
+        </section>
+        <section>
+          <p>
+            <a href="https://ru.wikipedia.org/wiki/Lorem_ipsum">Lorem ipsum</a>
+            dolor sit amet consectetur adipisicing elit. Rerum exercitationem
+            recusandae molestiae expedita vero, cupiditate officiis libero ea
+            cumque fuga explicabo nam accusamus repudiandae, placeat quo ipsa
+            obcaecati corporis amet. Lorem ipsum, dolor sit
+          </p>
+        </section>
+      </main>
+
+      <footer>
+        <aside><h3>Copyright</h3></aside>
+      </footer>
+    </div>
+  </body>
+</html>

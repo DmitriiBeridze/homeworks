@@ -1,0 +1,21 @@
+.button {
+  border: 1px solid $greyblue;
+  text-decoration: none;
+  display: block;
+  width: max-content;
+  padding: 5px 25px;
+  text-transform: uppercase;
+  color: $greyblue;
+
+  &:hover {
+    color: $orange;
+    border: 1px solid $orange;
+
+    text-decoration: underline;
+  }
+
+  &_wrapper {
+    margin: 5px;
+    display: inline-block;
+  }
+}

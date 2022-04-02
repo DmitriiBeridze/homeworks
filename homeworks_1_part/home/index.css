@@ -1,0 +1,23 @@
+.button {
+  border: 1px solid #3c3e7d;
+  text-decoration: none;
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px 25px;
+  text-transform: uppercase;
+  color: #3c3e7d;
+}
+
+.button:hover {
+  color: #f2994a;
+  border: 1px solid #f2994a;
+  text-decoration: underline;
+}
+
+.button_wrapper {
+  margin: 5px;
+  display: inline-block;
+}
+/*# sourceMappingURL=index.css.map */
