@@ -1,0 +1,260 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "accidental_presidency";
+  src: url(./assets/fonts/accidental_presiden/accid.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cabin";
+  src: url(./assets/fonts/Cabin/static/Cabin/Cabin-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cabin";
+  src: url(./assets/fonts/Cabin/static/Cabin/Cabin-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.leftbar__wrapper {
+  background-color: #adb1ad;
+  width: 35%;
+  height: 770px;
+  padding: 0 20px;
+}
+
+.user__wraper {
+  margin-top: 40px;
+}
+
+.user__header {
+  font-family: "accidental_presidency";
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.user__list {
+  list-style: none;
+  margin-top: 27px;
+}
+
+.list__item {
+  margin-bottom: 22px;
+  border-bottom: 1px solid #dbdddb;
+}
+
+.list__item:last-child {
+  margin-bottom: 8px;
+}
+
+.item__title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "accidental_presidency";
+  color: #524e52;
+  letter-spacing: 0.04em;
+}
+
+.item__text {
+  margin-bottom: 10px;
+}
+
+.icons_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+}
+
+.description {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.place__link {
+  color: #366d81;
+}
+
+.place__link:hover {
+  color: #dbdddb;
+}
+
+.rightbar__wrapper {
+  padding: 60px 20px 0;
+}
+
+.rightbar_header {
+  font-size: 1.6em;
+  padding-bottom: 20px;
+  font-weight: 600;
+  border-bottom: solid 2px #adb1ad;
+  font-family: accidental_presidency;
+  color: #524e52;
+  letter-spacing: 0.04em;
+}
+
+.list__wrapper {
+  margin-top: 15px;
+}
+
+.list {
+  list-style: none;
+}
+
+.item__wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.position:last-child {
+  margin-right: 0;
+}
+
+.info__list {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.list__part {
+  margin-top: 20px;
+}
+
+.list__part:first-child {
+  margin-top: 0;
+}
+
+.footer {
+  margin-top: 54px;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.icon_set {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.icon_set:last-child {
+  margin-right: 0;
+}
+
+.icon_img {
+  width: 100%;
+}
+
+.icon_link {
+  text-align: center;
+  font-size: 0.6em;
+}
+
+.link-ref {
+  text-decoration: none;
+}
+
+.icon__wraper {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.icon__wraper:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.photo__wraper {
+  padding-top: 20px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.photo__item {
+  width: 100%;
+}
+
+.button {
+  border: 1px solid #3c3e7d;
+  text-decoration: none;
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px 25px;
+  text-transform: uppercase;
+  color: #3c3e7d;
+}
+
+.button:hover {
+  color: #f2994a;
+  border: 1px solid #f2994a;
+  text-decoration: underline;
+}
+
+.button_wrapper {
+  margin: 5px;
+  display: inline-block;
+}
+
+body {
+  padding-bottom: 30px;
+  font-size: 14px;
+  font-family: Cabin;
+  font-weight: 400;
+}
+
+.wrapper {
+  background-color: #fdfcfc;
+  max-width: 550px;
+  height: 780px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+}
+/*# sourceMappingURL=index.css.map */

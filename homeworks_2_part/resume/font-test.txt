@@ -1,0 +1,20 @@
+/* @font-face {
+  font-family: "accidental_presidency";
+  src: url(./assets/fonts/accidental_presiden/accid.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cabin";
+  src: url(./assets/fonts/Cabin/static/Cabin/Cabin-Regular.ttf)
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cabin";
+  src: url(./assets/fonts/Cabin/static/Cabin/Cabin-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+} */

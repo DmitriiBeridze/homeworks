@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@import "./scss/fonts-style/font";
+@import "./scss/variables/variables";
+@import "./scss/components/index";
+@import "./scss/elements/_photo.scss";
+@import "../../variables/variables";
+@import "../../style/lorem-button";
+
+body {
+  // padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 14px;
+  // font-family: Roboto-Regular;
+  font-family: Cabin;
+  font-weight: 400;
+}
+.wrapper {
+  background-color: rgb(253, 252, 252);
+  max-width: 550px;
+  height: 780px;
+  margin: 0 auto;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+
+  // padding-bottom: 10px;
+}
