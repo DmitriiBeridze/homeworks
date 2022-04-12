@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+body {
+  background-color: #3b3f45;
+  border: 15px solid #cdc6ee;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.head {
+  width: 100%;
+  height: 120px;
+  background-color: #4a4f56;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* display: flex; */
+}
+
+
+h1 {
+  text-align: center;
+  color: #ff8984;
+  margin-top: 0;
+  margin-bottom: 10px;
+  
+}
+.subtitle {
+  color: #ff8984;
+  text-align: center;
+  font-size: 24px;
+}
+.cont {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+ul {
+  list-style: none;
+
+  padding: 0;
+}
+
+li:nth-child(odd) {
+  background-color: #88839e;
+}
+
+li {
+  display: block;
+  background-color: #7a7593;
+  font-size: 20px;
+  border-bottom: 2px #7a7593 solid;
+  border-top: 2px #7a7593 solid;
+}
+
+label {
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  padding: 19px 0px;
+}
+
+[type="checkbox"] {
+  zoom: 1.8;
+  margin: 0px 10px;
+}
+ul :hover {
+  background-color: #625e77;
+  border-color: white;
+}
+.list :active {
+  background-color: rgb(92, 57, 95);
+}
+:checked + span {
+  color: #a3a0b5;
+  text-decoration: line-through;
+}
+.small {
+  font-size: 1rem;
+  font-style: italic;
+}
+.small::after {
+  content: ")";
+}
+.small::before {
+  content: "(";
+}
+.background {
+  background-color: #cdc6ee;
+  width: 100%;
+  height: 100vh;
+}
+.big {
+  font-size: 1.5rem;
+}
+.footer_title {
+  background-color: #4a4f56;
+  padding: 20px 0;
+  width: 50%;
+  margin: 0 auto;
+  color: #ff8984;
+  font-size: 24px;
+  text-align: center;
+}
+/* Button */
+
+.button {
+    border: 1px solid #fefeff;
+    text-decoration: none;
+    display: inline-block;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    color: #fefeff;
+  }
+  
+  .button:hover {
+    color: #f2994a;
+    border: 1px solid #f2994a;
+    text-decoration: underline;
+  }
+  
+  .button_wrapper {
+    margin: 5px 5px 0 5px;
+    display: inline-block;
+  }
+  /*# s

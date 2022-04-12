@@ -1,0 +1,30 @@
+include ./src/elements/index.pug
+include ./src/components/index.pug
+include ../../item/_button.pug
+
+
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="index.css")
+    link(rel="shortcut icon" href="favicon.ico")
+    title Document
+  body
+    include ./src/elements/svg-sprite.pug
+    +button
+    //- Загальна обгортка_________
+    .wraper
+      +header button kugtoiugtoug 
+
+      //-  Обгортка для наповнення___________
+      .wraper__content 
+        +section 
+      +footer
+
+
+
+
+
+

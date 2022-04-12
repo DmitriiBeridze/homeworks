@@ -1,0 +1,178 @@
+// section style________________
+
+.content__link {
+  margin-top: 40px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.border__link {
+  display: inline-block;
+  margin: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: $c-font-grey;
+  transition: 0.5s;
+}
+.link:hover {
+  border-bottom: 1px solid $c-font-grey;
+}
+.link:visited {
+  border-bottom: 1px solid $c-icon-blue;
+  color: $c-icon-blue;
+}
+// heder style___
+.content__header {
+  font-family: NunitoSans;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  margin-top: 18px;
+}
+// cards container style___
+.content__blocks {
+  padding-top: 36px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.info-block {
+  width: 360px;
+  height: 360px;
+  border-radius: 8px;
+
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  background-color: $c-back-white;
+  border: 1px solid $c-border-gey;
+  transition: 0.8s;
+}
+.info-block:hover {
+  border-color: $c-icon-blue;
+}
+.info-block__green {
+  width: 360px;
+  height: 360px;
+  border-radius: 8px;
+
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+  background-color: $c-back-white;
+  border: 1px solid $c-border-gey;
+  transition: 0.8s;
+}
+.info-block__green:hover {
+  border-color: $c-border-green;
+}
+.info-block__wrapper {
+  width: 79%;
+  position: absolute;
+  //   margin: 0
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+// icon wrapper style________
+// .info-block__icon {
+//   width: 64px;
+//   height: 64px;
+//   border: 1px solid $c-border-gey;
+//   background-color: $c-back-white;
+//   border-radius: 16px;
+//   position: relative;
+// }
+// .info-block__icon:hover {
+//   background-color: rgba($c-icon-blue, 0.2);
+// }
+// icon style______
+
+// .svg__icon {
+//   fill: $c-icon-blue;
+//   width: 40px;
+//   height: 40px;
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   margin: auto;
+//   transition: 0.5s;
+// }
+// #icon_efect:hover {
+//   fill: rgba($c-icon-blue, 0.4);
+// }
+
+// .svg__icon_green {
+//   fill: $c-icon-green;
+//   width: 40px;
+//   height: 40px;
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   margin: auto;
+//   transition: 0.5s;
+// }
+
+// #shop__icon-efect:hover {
+//   fill: rgba($c-border-green, 0.4);
+// }
+
+// text stile____
+.info-block__title {
+  font-size: 24px;
+  margin-top: 28px;
+}
+.info-block__content {
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 14px;
+}
+.info-block__footer {
+  font-size: 16px;
+  margin-top: 30px;
+}
+.info-block__link {
+  text-decoration: none;
+  color: $c-font-black;
+}
+
+.info-block__link:hover {
+  border-bottom: 1px solid $c-font-grey;
+}
+.info-block__link:visited {
+  border-bottom: 1px solid $c-icon-blue;
+  color: $c-icon-blue;
+}
+
+// .info-block__icon {
+//   width: 64px;
+//   height: 64px;
+//   border: 1px $c-border-gey;
+//   background-color: $c-back-white;
+//   border-radius: 16px;
+//   position: relative;
+// }
+// .svg__icon {
+//   fill: $c-icon-blue;
+//   width: 40px;
+//   height: 40px;
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   margin: auto;
+//   transition: 0.5s;
+// }
+// #icon_efect:hover {
+//   fill: rgba($c-icon-blue, 0.4);
+// }

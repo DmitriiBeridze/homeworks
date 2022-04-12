@@ -1,0 +1,42 @@
+// blue icon style______
+.info-block__icon {
+  width: 64px;
+  height: 64px;
+
+  background-color: $c-back-white;
+  border-radius: 16px;
+  position: relative;
+  border: 1px solid $c-border-gey;
+}
+.svg__icon {
+  fill: $c-icon-blue;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: 0.5s;
+}
+#icon_efect:hover {
+  fill: rgba($c-icon-blue, 0.4);
+}
+// green icon style_______
+.svg__icon_green {
+  fill: $c-icon-green;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: 0.5s;
+}
+
+#shop__icon-efect:hover {
+  fill: rgba($c-border-green, 0.4);
+}
