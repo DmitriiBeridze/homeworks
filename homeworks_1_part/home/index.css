@@ -9,15 +9,12 @@
   text-transform: uppercase;
   color: #3c3e7d;
 }
-
 .button:hover {
   color: #f2994a;
   border: 1px solid #f2994a;
   text-decoration: underline;
 }
-
 .button_wrapper {
   margin: 5px;
   display: inline-block;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

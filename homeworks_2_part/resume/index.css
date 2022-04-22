@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -11,21 +10,18 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Cabin";
   src: url(./assets/fonts/Cabin/static/Cabin/Cabin-Regular.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Cabin";
   src: url(./assets/fonts/Cabin/static/Cabin/Cabin-Bold.ttf) format("truetype");
   font-weight: 700;
   font-style: normal;
 }
-
 .leftbar__wrapper {
   background-color: #adb1ad;
   width: 35%;
@@ -74,18 +70,11 @@
 }
 
 .icons_cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 5px;
 }
@@ -126,14 +115,10 @@
 }
 
 .item__wraper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .position:last-child {
@@ -158,12 +143,8 @@
 }
 
 .footer__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .icon_set {
@@ -189,13 +170,11 @@
 }
 
 .icon__wraper {
-  -webkit-transition: 0.6s;
   transition: 0.6s;
 }
 
 .icon__wraper:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 
 .photo__wraper {
@@ -208,8 +187,7 @@
   overflow: hidden;
   border-radius: 50%;
   margin: 0 auto;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .photo__item {
@@ -227,13 +205,11 @@
   text-transform: uppercase;
   color: #3c3e7d;
 }
-
 .button:hover {
   color: #f2994a;
   border: 1px solid #f2994a;
   text-decoration: underline;
 }
-
 .button_wrapper {
   margin: 5px;
   display: inline-block;
@@ -247,14 +223,10 @@ body {
 }
 
 .wrapper {
-  background-color: #fdfcfc;
+  background-color: rgb(253, 252, 252);
   max-width: 550px;
   height: 780px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
-}
-/*# sourceMappingURL=index.css.map */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+}/*# sourceMappingURL=index.css.map */

@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -16,7 +15,6 @@ body {
   padding: 20px;
   width: 100%;
 }
-
 .header__title {
   text-align: center;
   font-size: 40px;
@@ -65,5 +63,4 @@ body {
 
 .list__name:hover {
   text-decoration: underline;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
